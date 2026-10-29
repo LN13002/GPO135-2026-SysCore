@@ -36,6 +36,12 @@
 *.x86_64
 *.hex
 
+# xmake output and local executables
+build/
+.xmake/
+SysCore
+syscore
+
 # Debug files
 *.dSYM/
 *.su
